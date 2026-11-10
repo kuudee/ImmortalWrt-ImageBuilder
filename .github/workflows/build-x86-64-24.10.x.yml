@@ -38,15 +38,15 @@ on:
       include_docker:
         description: |
           是否编译 Docker 插件
-        required: true
-        default: 'yes'
+        required: false
+        default: 'no'
         type: choice
         options:
           - 'yes'
           - 'no'
       enable_pppoe:
         description: "是否配置PPPoE拨号信息?"
-        required: true
+        required: false
         default: 'no'
         type: choice
         options:
