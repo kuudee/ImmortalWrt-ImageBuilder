@@ -65,7 +65,7 @@ if [ "$count" -eq 1 ]; then
     uci set network.lan.ipaddr='192.168.25.253'
     uci set network.lan.netmask='255.255.255.0'
     uci set network.lan.gateway='192.168.25.2'
-    uci set network.lan.dns='192.168.25.253'
+    uci set network.lan.dns='192.168.25.251'
     uci commit network
 elif [ "$count" -gt 1 ]; then
     # 多网口设备配置
